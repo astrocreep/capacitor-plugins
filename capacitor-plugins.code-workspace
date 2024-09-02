@@ -1,0 +1,85 @@
+{
+  "folders": [
+    {
+      "path": "gameanalytics",
+      "name": "gameanalytics"
+    },
+    {
+      "path": "gamecenter",
+      "name": "gamecenter"
+    },
+    {
+      "path": "textinteraction",
+      "name": "textinteraction"
+    }
+  ],
+  "settings": {
+    "cSpell.allowCompoundWords": true,
+    "cSpell.enabledLanguageIds": [
+      "javascript",
+      "markdown",
+      "plaintext",
+      "typescript"
+    ],
+    "cSpell.ignorePaths": [
+      "**/node_modules/**",
+      ".git"
+    ],
+    "cSpell.ignoreRegExpList": [
+      "/import\\s+().*from\\s+(['\"]).*\\1/"
+    ],
+    "cSpell.words": [
+    ],
+    "debug.openDebug": "openOnSessionStart",
+    "debug.openExplorerOnEnd": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "never"
+    },
+    "editor.detectIndentation": true,
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2,
+    "eslint.rules.customizations": [
+      { "rule": "style/*", "severity": "off" },
+      { "rule": "format/*", "severity": "off" },
+      { "rule": "*-indent", "severity": "off" },
+      { "rule": "*-spacing", "severity": "off" },
+      { "rule": "*-spaces", "severity": "off" },
+      { "rule": "*-order", "severity": "off" },
+      { "rule": "*-dangle", "severity": "off" },
+      { "rule": "*-newline", "severity": "off" },
+      { "rule": "*quotes", "severity": "off" },
+      { "rule": "*semi", "severity": "off" }
+    ],
+    "eslint.useFlatConfig": true,
+    "eslint.validate": [
+      "javascript",
+      "typescript",
+      "html",
+      "markdown",
+      "json",
+      "yaml",
+    ],
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/tsconfig.json": true,
+      "**/bin": true,
+      "**/node_modules": true,
+    },
+    "npm.autoDetect": "on",
+    "npm.scriptExplorerExclude": ["install"],
+    "todohighlight.keywords": [
+      {
+        "text": "TODO:",
+        "before": {
+          "contentText": "🏷️"
+        }
+      }
+    ]
+  }
+}

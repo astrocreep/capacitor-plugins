@@ -1,0 +1,5 @@
+{
+  "gameanalytics/src/**/!(*.d).ts": ["eslint --fix --max-warnings=0"],
+  "gamecenter/src/**/!(*.d).ts": ["eslint --fix --max-warnings=0"],
+  "textinteraction/**/!(*.d).ts": ["eslint --fix --max-warnings=0"]
+}
