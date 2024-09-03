@@ -52,6 +52,30 @@ importers:
         specifier: ~5.5.4
         version: 5.5.4
 
+  packages/gamecenter:
+    devDependencies:
+      '@capacitor/core':
+        specifier: ^6.1.2
+        version: 6.1.2
+      '@capacitor/docgen':
+        specifier: ^0.2.2
+        version: 0.2.2
+      '@capacitor/ios':
+        specifier: ^6.1.2
+        version: 6.1.2(@capacitor/core@6.1.2)
+      '@types/node':
+        specifier: ^20.16.3
+        version: 20.16.3
+      rimraf:
+        specifier: ^6.0.1
+        version: 6.0.1
+      rollup:
+        specifier: ^2.79.1
+        version: 2.79.1
+      typescript:
+        specifier: ^5.5.4
+        version: 5.5.4
+
   packages/textinteraction:
     devDependencies:
       '@capacitor/core':
