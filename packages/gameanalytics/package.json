@@ -1,7 +1,7 @@
 {
-  "name": "@astrocreep/capacitor-textinteraction",
-  "version": "1.1.0",
-  "description": "Toggle text interaction in Capacitor based iOS apps.",
+  "name": "@astrocreep/capacitor-gameanalytics",
+  "version": "0.2.0",
+  "description": "capacitor support for gameanalytics.com",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -9,7 +9,7 @@
   "files": [
     "dist/",
     "ios/Plugin/",
-    "CapacitorTextinteraction.podspec"
+    "CapacitorGameanalytics.podspec"
   ],
   "author": "Florian Hofmann",
   "license": "MIT",
@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "verify": "cd ios && pod install && xcodebuild -workspace Plugin.xcworkspace -scheme Plugin -destination generic/platform=iOS && cd ..",
-    "docgen": "docgen --api TextInteractionPlugin --output-readme README.md --output-json dist/docs.json",
+    "docgen": "docgen --api GameAnalyticsPlugin --output-readme README.md --output-json dist/docs.json",
     "build": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.js",
     "clean": "rimraf ./dist",
     "prepublishOnly": "npm run build"
@@ -39,7 +39,7 @@
     "@types/node": "^20.16.3",
     "rimraf": "^6.0.1",
     "rollup": "^2.79.1",
-    "typescript": "^5.5.4"
+    "typescript": "~5.5.4"
   },
   "peerDependencies": {
     "@capacitor/core": "^6.0.0"

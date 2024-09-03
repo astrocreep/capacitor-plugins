@@ -12,8 +12,11 @@
     "@antfu/eslint-config": "^3.0.0",
     "eslint": "^9.9.1",
     "husky": "^9.1.5",
-    "lint-staged": "^15.2.9",
+    "lint-staged": "^15.2.10",
     "turbo": "^2.1.1"
   },
-  "packageManager": "pnpm@9.9.0"
+  "packageManager": "pnpm@9.9.0",
+  "devDependencies": {
+    "@types/node": "20"
+  }
 }
