@@ -50,16 +50,13 @@ use native text input overlays.
 
 --------------------
 
-
 ### Interfaces
-
 
 #### TextInteractionResult
 
 | Prop          | Type                 | Description                                      | Since |
 | ------------- | -------------------- | ------------------------------------------------ | ----- |
 | **`success`** | <code>boolean</code> | true if supported (&gt;= iOS 14.5), false if not | 1.0.0 |
-
 
 #### TextInteractionOptions
 

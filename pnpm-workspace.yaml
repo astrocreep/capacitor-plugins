@@ -1,5 +1,2 @@
 packages:
-  - gameanalytics
-  - gamecenter
-  - textinteraction
-  - 'core/*'
+  - 'packages/*'

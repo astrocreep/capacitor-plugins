@@ -10,13 +10,14 @@ const config = antfu({
     'no-unused-labels': 'off',
     'node/prefer-global/process': 'off',
     'ts/no-explicit-any': 'error',
-    'ts/method-signature-style': 'off'
+    'ts/method-signature-style': 'off',
   },
   typescript: true,
   javascript: true,
   jsonc: false,
   vue: false,
   yaml: false,
+  markdown: false,
 }, {}, {
   ignores: [
     '.husky',

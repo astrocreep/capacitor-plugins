@@ -1,15 +1,19 @@
 {
   "folders": [
     {
-      "path": "gameanalytics",
+      "path": ".",
+      "name": "root"
+    },
+    {
+      "path": "packages/gameanalytics",
       "name": "gameanalytics"
     },
     {
-      "path": "gamecenter",
+      "path": "packages/gamecenter",
       "name": "gamecenter"
     },
     {
-      "path": "textinteraction",
+      "path": "packages/textinteraction",
       "name": "textinteraction"
     }
   ],
@@ -56,7 +60,6 @@
       "javascript",
       "typescript",
       "html",
-      "markdown",
       "json",
       "yaml",
     ],
@@ -67,9 +70,9 @@
       "**/CVS": true,
       "**/.DS_Store": true,
       "**/Thumbs.db": true,
-      "**/tsconfig.json": true,
       "**/bin": true,
       "**/node_modules": true,
+      "packages": true,
     },
     "npm.autoDetect": "on",
     "npm.scriptExplorerExclude": ["install"],
