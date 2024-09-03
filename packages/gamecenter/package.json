@@ -1,0 +1,52 @@
+{
+  "name": "@astrocreep/capacitor-gamecenter",
+  "version": "0.0.1",
+  "description": "GameCenter for Capacitor.js",
+  "main": "dist/plugin.cjs.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "unpkg": "dist/plugin.js",
+  "files": [
+    "dist/",
+    "ios/Plugin/",
+    "CapacitorGamecenter.podspec"
+  ],
+  "author": "Florian Hofmann",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrocreep/capacitor-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/astrocreep/capacitor-plugins/issues"
+  },
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "scripts": {
+    "verify": "cd ios && pod install && xcodebuild -workspace Plugin.xcworkspace -scheme Plugin -destination generic/platform=iOS && cd ..",
+    "docgen": "docgen --api GameCenterPlugin --output-readme README.md --output-json dist/docs.json",
+    "build": "pnpm run clean && pnpm run docgen && tsc && rollup -c rollup.config.js",
+    "clean": "rimraf ./dist",
+    "prepublishOnly": "pnpm run build"
+  },
+  "devDependencies": {
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/docgen": "^0.2.2",
+    "@capacitor/ios": "^6.1.2",
+    "@types/node": "^20.16.3",
+    "rimraf": "^6.0.1",
+    "rollup": "^2.79.1",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "@capacitor/core": "^6.0.0"
+  },
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    }
+  }
+}
