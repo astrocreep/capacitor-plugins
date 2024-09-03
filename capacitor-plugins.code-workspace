@@ -75,7 +75,11 @@
       "packages": true,
     },
     "npm.autoDetect": "on",
-    "npm.scriptExplorerExclude": ["install"],
+    "npm.scriptExplorerExclude": [
+      "install",
+      "preinstall",
+      "prepare"
+    ],
     "todohighlight.keywords": [
       {
         "text": "TODO:",
