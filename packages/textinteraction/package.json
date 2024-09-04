@@ -1,6 +1,6 @@
 {
   "name": "@astrocreep/capacitor-textinteraction",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Toggle text interaction in Capacitor based iOS apps.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -9,7 +9,7 @@
   "files": [
     "dist/",
     "ios/Plugin/",
-    "CapacitorTextinteraction.podspec"
+    "AstrocreepCapacitorTextinteraction.podspec"
   ],
   "author": "Florian Hofmann",
   "license": "MIT",

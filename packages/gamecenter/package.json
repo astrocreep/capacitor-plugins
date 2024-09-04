@@ -1,6 +1,6 @@
 {
   "name": "@astrocreep/capacitor-gamecenter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "GameCenter for Capacitor.js",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -9,7 +9,7 @@
   "files": [
     "dist/",
     "ios/Plugin/",
-    "CapacitorGamecenter.podspec"
+    "AstrocreepCapacitorGamecenter.podspec"
   ],
   "author": "Florian Hofmann",
   "license": "MIT",
