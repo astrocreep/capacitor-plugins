@@ -3,6 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "verify": "turbo verify",
     "build": "turbo build",
     "docgen": "turbo docgen",
     "prepare": "husky",
